@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEF53B61-0BE7-4DB2-8A6D-A0E945986B17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Major_Project_2_DC.My.MyApplication</StartupObject>
+    <RootNamespace>Major_Project_2_DC</RootNamespace>
+    <AssemblyName>Major Project 2 DC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Major Project 2 DC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Major Project 2 DC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blackjack Main Menu.Designer.vb">
+      <DependentUpon>Blackjack Main Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blackjack Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blackjack Game.Designer.vb">
+      <DependentUpon>Blackjack Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blackjack Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hangman Main Menu.Designer.vb">
+      <DependentUpon>Hangman Main Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hangman Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="How to Play Blackjack.Designer.vb">
+      <DependentUpon>How to Play Blackjack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="How to Play Blackjack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="How to Play.Designer.vb">
+      <DependentUpon>How to Play.vb</DependentUpon>
+    </Compile>
+    <Compile Include="How to Play.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Menu.Designer.vb">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Alter Words.Designer.vb">
+      <DependentUpon>Alter Words.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alter Words.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player Vs Computer.Designer.vb">
+      <DependentUpon>Player Vs Computer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Player Vs Computer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player vs Player Game.Designer.vb">
+      <DependentUpon>Player vs Player Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Player vs Player Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player Vs Player Lobby.Designer.vb">
+      <DependentUpon>Player Vs Player Lobby.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Player Vs Player Lobby.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player vs Player.Designer.vb">
+      <DependentUpon>Player vs Player.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Player vs Player.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Blackjack Main Menu.resx">
+      <DependentUpon>Blackjack Main Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blackjack Game.resx">
+      <DependentUpon>Blackjack Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hangman Main Menu.resx">
+      <DependentUpon>Hangman Main Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="How to Play Blackjack.resx">
+      <DependentUpon>How to Play Blackjack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="How to Play.resx">
+      <DependentUpon>How to Play.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Menu.resx">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alter Words.resx">
+      <DependentUpon>Alter Words.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player Vs Computer.resx">
+      <DependentUpon>Player Vs Computer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player vs Player Game.resx">
+      <DependentUpon>Player vs Player Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player Vs Player Lobby.resx">
+      <DependentUpon>Player Vs Player Lobby.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player vs Player.resx">
+      <DependentUpon>Player vs Player.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
